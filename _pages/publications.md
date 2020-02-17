@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+<iframe width="1000" height="300" src="http://dattasiddhartha.github.io/INFO190-DATAVIZ"></iframe>
+
+{% include sankey.html %}
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
